@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'silex';
+  font-style:  normal;
+  font-weight: 400;
+  src: url("silex-basic.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'silex';
+  font-style:  normal;
+  font-weight: 100;
+  src: url("silex-calligraphy.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'silex';
+  font-style:  normal;
+  font-weight: 800;
+  src: url("silex-illustrations.woff") format("woff");
+}

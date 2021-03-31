@@ -1,0 +1,71 @@
+.venue {
+    
+    .container {
+        padding: 1em;
+    }
+
+    .photos {
+        display: flex;
+        align-items: center;
+        margin: -1em;
+        
+        img {
+            width: calc(33.333% - 1em);
+            margin: 1em 0.5em;
+        }
+        
+        @media (max-width: 768px) {
+            flex-flow: row wrap;
+            margin: 0;
+            
+            img {
+                width: 100%;
+                margin: 0.5em 0;
+            }
+        }
+    }    
+    
+    h2 {
+        margin-top: 1em;
+    }
+    
+    h3.address {
+        text-align: center;
+    }
+    
+    .directions {
+        display: flex;
+        flex-flow: row wrap;
+        margin: 3em auto;
+        
+        > * {
+            width: 50%;
+            
+            &:first-of-type {
+                padding-right: 3em;
+            }
+            &:last-of-type {
+                padding-left: 3em;
+            }
+        }
+        
+        @media (max-width: 900px) {
+            > * {
+                width: 100%;
+                padding-top: 1em;
+                padding-bottom: 1em;
+                
+                &:first-of-type {
+                    padding-right: 0;
+                }
+                &:last-of-type {
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+    
+    .map {
+        border: 2px solid #333;
+    }
+}

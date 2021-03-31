@@ -1,0 +1,24 @@
+//Colors
+$color-0: #212121;
+$color-1: #7C7F4A;
+$color-2: blue;
+$color-3: green;
+
+$color-grey-1: #EBF1EC;
+$color-grey-2: #f8f8f8;
+$color-grey-3: #424242;
+
+$font-0: 'Rubik', sans-serif;
+$font-1: 'Silex', $font-0, sans-serif; //Dancing+Script:400,700|Great+Vibes|Sacramento
+$font-2: 'Loved by the King', $font-0, sans-serif;
+
+//Box Shadow
+$box-shadow-1: 0 2px 4px 0 rgba(50,50,93,.1);
+$box-shadow-2: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+$box-shadow-3: 0 7px 14px rgba(50,50,93,.11), 0 3px 6px rgba(0,0,0,.08);
+
+//Transitions
+$transition-1: 250ms ease;
+
+//Sizing
+$container-width: 1600px; //Sizing of the section .container as well as .column containers

@@ -1,0 +1,39 @@
+.photos {
+  .container {
+    max-width: 1600px;
+  }
+
+  .gallery {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 -2em;
+
+    @media (max-width: 768px) {
+      margin: 0;
+    }
+  }
+
+  .gallery-item {
+    display: block;
+    width: calc(50% - 2em);
+    margin: 1em;
+    overflow: hidden;
+
+    @media (max-width: 768px) {
+      width: calc(50% - 1em);
+      margin: 0.5em;
+    }
+
+    img {
+      width: 100%;
+      transition: $transition-1;
+    }
+
+    &:hover,
+    &:focus {
+      img {
+        transform: scale(1.08);
+      }
+    }
+  }
+}

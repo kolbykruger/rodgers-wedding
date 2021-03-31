@@ -1,0 +1,200 @@
+.nav {
+  text-align: center;
+  user-select: none;
+  z-index: 10;
+  height: 8em;
+
+  &.mobile-navigation-open {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #ebf1ec;
+    overflow: hidden;
+  }
+
+  @media (max-width: 900px) {
+    height: 5em;
+  }
+}
+
+.nav .container {
+  display: flex;
+  align-items: center;
+
+  @media (max-width: 900px) {
+    padding: 0;
+  }
+}
+
+.nav .group {
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+
+  @media (max-width: 900px) {
+    display: none;
+  }
+
+  > * {
+    flex: 1;
+    text-align: center;
+  }
+}
+
+.nav .logo {
+  font-family: $font-1;
+  font-weight: 400;
+  flex: 2;
+
+  a {
+    @include fluid("font-size", 2rem, 3rem);
+  }
+
+  span {
+    font-family: $font-1;
+    font-weight: 400;
+  }
+}
+
+.nav ul {
+  display: flex;
+  overflow: unset;
+  padding: 0;
+}
+
+.nav .top ~ .top {
+  justify-content: flex-end;
+}
+
+.nav li {
+  position: relative;
+  display: block;
+  padding: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+
+.nav a {
+  @include fs(16px);
+  @include fluid("font-size", 1.25rem, 1.5rem);
+  display: block;
+  color: $color-0;
+  font-family: $font-2;
+  text-decoration: none;
+  transition: $transition-1;
+  padding: 0.5em;
+  margin: 0 0.5em;
+  line-height: 1;
+
+  i,
+  svg {
+    width: 1em;
+    height: 1em;
+  }
+
+  @media (max-width: 1200px) {
+    padding: 0.25em;
+    margin: 0 0.25em;
+  }
+}
+
+.nav a:hover,
+.nav a:focus {
+  color: $color-1;
+}
+
+.nav > ul {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.nav .mobile-navicon {
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+  .logo {
+    flex: unset;
+
+    a {
+      font-size: 2.5rem;
+    }
+    i {
+      font-size: 1.5rem;
+    }
+  }
+
+  button {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: none;
+    outline: none;
+    border: none;
+    padding: 0.75em;
+    font-size: 1.75rem;
+    cursor: pointer;
+  }
+
+  i,
+  svg {
+    width: 1em;
+    height: 1em;
+  }
+
+  @media (max-width: 900px) {
+    display: flex;
+  }
+}
+
+.mobile-navigation {
+  position: fixed;
+  top: 5em;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #ebf1ec;
+  padding: 2em;
+  z-index: -1;
+  opacity: 0;
+
+  ul {
+    display: block;
+    list-style-type: none;
+    padding: 0 !important;
+  }
+
+  li {
+    position: relative;
+    display: block;
+    padding: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    text-align: center;
+  }
+
+  a {
+    font-size: 2rem;
+    display: block;
+    color: $color-0;
+    font-family: $font-2;
+    text-decoration: none;
+    transition: $transition-1;
+    padding: 0.5em;
+    margin: 0 0.5em;
+    line-height: 1;
+    padding: 0.5em;
+
+    @media (max-width: 450px) {
+      font-size: 1.5rem;
+    }
+  }
+
+  &-open {
+    z-index: 999;
+    opacity: 1;
+  }
+}

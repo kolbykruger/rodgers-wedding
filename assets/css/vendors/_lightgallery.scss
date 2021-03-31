@@ -1,0 +1,23 @@
+.lg-backdrop.in {
+    background-color: rgba(0,0,0,0.75) !important;
+}
+
+.lg-toolbar {
+    //display: none !important;
+}
+
+.lg-actions {
+    
+    .lg-icon::after,
+    .lg-icon::before {
+        font-family: 'Font Awesome 5 Pro';
+    }
+    
+    .lg-icon.lg-prev::after {
+        content: '\f053';
+    }
+    
+    .lg-icon.lg-next::before {
+        content: '\f054';
+    }
+}
