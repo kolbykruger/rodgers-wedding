@@ -213,7 +213,7 @@
 
           <a class="gallery-item">
             <picture>
-              <img src="@/assets/images/gallery/55_IMG_3223_min.jpg" alt="" />
+              <img src="@/assets/images/gallery/55_IMG_3223_min.JPG" alt="" />
             </picture>
           </a>
         </div>

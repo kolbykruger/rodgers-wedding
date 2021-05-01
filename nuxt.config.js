@@ -43,5 +43,11 @@ export default {
   modules: [],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {}
+  build: {},
+
+  // Page transitions
+  pageTransition: {
+    name: "my-page",
+    mode: "out-in"
+  }
 };
