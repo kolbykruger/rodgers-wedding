@@ -194,7 +194,7 @@ export default {
     data() {
         return {
             flickityOptions: {
-                cellSelector: '.gallery-item',
+                cellSelector: '.slide-item',
                 wrapAround: true,
                 adaptiveHeight: false,
                 //cellAlign: 'center',
