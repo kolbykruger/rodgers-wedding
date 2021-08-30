@@ -15,3 +15,18 @@
         </section>
     </div>
 </template>
+
+<script>
+import { Meta } from '~/mixins/Meta.js'
+
+export default {
+    name: 'Itinerary',
+    mixins: [Meta],
+    data() {
+        return {
+            title: 'Itinerary',
+            description: ''
+        }
+    }
+}
+</script>

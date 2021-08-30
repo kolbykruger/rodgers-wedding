@@ -38,8 +38,17 @@
 </template>
 
 <script>
+import { Meta } from '~/mixins/Meta.js'
+
 export default {
-    name: 'MessageFromUs'
+    name: 'MessageFromUs',
+    mixins: [Meta],
+    data() {
+        return {
+            title: 'Message From Us',
+            description: ''
+        }
+    }
 }
 </script>
 

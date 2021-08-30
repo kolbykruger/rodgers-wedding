@@ -716,8 +716,17 @@
 </template>
 
 <script>
+import { Meta } from '~/mixins/Meta.js'
+
 export default {
     name: 'Accomodations',
+    mixins: [Meta],
+    data() {
+        return {
+            title: 'Accommodations',
+            description: ''
+        }
+    },
     methods: {
         toggleAccordion(event) {
             const button = event.currentTarget

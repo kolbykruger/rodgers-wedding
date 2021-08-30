@@ -93,3 +93,18 @@
         </section>
     </div>
 </template>
+
+<script>
+import { Meta } from '~/mixins/Meta.js'
+
+export default {
+    name: 'QA',
+    mixins: [Meta],
+    data() {
+        return {
+            title: 'QA',
+            description: ''
+        }
+    }
+}
+</script>

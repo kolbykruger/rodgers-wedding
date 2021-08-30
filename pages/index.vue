@@ -190,7 +190,10 @@
 </template>
 
 <script>
+import { Meta } from '~/mixins/Meta.js'
+
 export default {
+    name: 'Home',
     data() {
         return {
             flickityOptions: {
@@ -203,8 +206,11 @@ export default {
                 autoPlay: 6000,
                 fade: true,
                 imagesLoaded: true
-            }
+            },
+            title: 'Exclusive',
+            description: ''
         }
-    }
+    },
+    mixins: [Meta]
 }
 </script>
