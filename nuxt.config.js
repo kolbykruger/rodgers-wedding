@@ -4,7 +4,7 @@ export default {
 
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
-        title: 'rodgers-wedding',
+        title: 'Home - Jess & Regina 2021',
         htmlAttrs: {
             lang: 'en'
         },
