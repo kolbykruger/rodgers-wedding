@@ -14,11 +14,9 @@
                     <img src="/venue/barn-night.jpg" alt="" />
                 </div>
                 <h2>Gilbertsville Farmhouse</h2>
-                <h3 class="address">
-                    <address>
-                        336 Coye Brook Rd <br />
-                        South New Berlin, NY 13843
-                    </address>
+                <h3 class="address" style="opacity: 0.7">
+                    336 Coye Brook Rd <br />
+                    South New Berlin, NY 13843
                 </h3>
                 <div class="directions">
                     <div class="text">

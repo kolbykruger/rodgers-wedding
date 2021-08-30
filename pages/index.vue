@@ -12,6 +12,7 @@
                                 <div class="date">Oct 19, 2021</div>
                                 <div class="location">
                                     Gilbertsville Farmhouse <br />
+                                    3:30pm <br />
                                     South New Berlin, NY
                                 </div>
                                 <!--<div class="hashtag">#hastag</div>-->
@@ -25,6 +26,7 @@
                                 <div class="date">Oct 19, 2021</div>
                                 <div class="location">
                                     Gilbertsville Farmhouse <br />
+                                    3:30pm <br />
                                     South New Berlin, NY
                                 </div>
                                 <!--<div class="hashtag">#hastag</div>-->
@@ -38,6 +40,7 @@
                                 <div class="date">Oct 19, 2021</div>
                                 <div class="location">
                                     Gilbertsville Farmhouse <br />
+                                    3:30pm <br />
                                     South New Berlin, NY
                                 </div>
                                 <!--<div class="hashtag">#hastag</div>-->

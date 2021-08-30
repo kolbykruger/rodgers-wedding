@@ -51,8 +51,12 @@
 
         p.icon {
             margin-left: 1em;
-            transition: $transition-1;
-            opacity: 0.5;
+
+            svg {
+                transform-origin: center;
+                transition: $transition-1;
+                opacity: 0.5;
+            }
         }
     }
 
@@ -76,7 +80,9 @@
             box-shadow: $box-shadow-3;
 
             p.icon {
-                transform: rotate(225deg);
+                svg {
+                    transform: rotate(225deg);
+                }
             }
             .list-info {
                 background: rgba(0, 0, 0, 0.01);
