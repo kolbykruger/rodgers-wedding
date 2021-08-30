@@ -3,7 +3,7 @@
         <section class="hero">
             <div class="container">
                 <div class="slider">
-                    <Flickity :options="flickityOptions">
+                    <Flickity ref="flickity" :options="flickityOptions">
                         <div class="slide-item">
                             <picture>
                                 <img src="/carousel/TaraBethPhotography-196-min.jpg" alt="" />
@@ -194,6 +194,7 @@ export default {
     data() {
         return {
             flickityOptions: {
+                cellSelector: '.gallery-item',
                 wrapAround: true,
                 adaptiveHeight: false,
                 //cellAlign: 'center',
