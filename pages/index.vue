@@ -210,7 +210,7 @@ export default {
                 fade: true,
                 imagesLoaded: true
             },
-            title: 'Exclusive',
+            title: 'Home',
             description: ''
         }
     },
