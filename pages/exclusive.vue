@@ -73,7 +73,7 @@
                     Breakfast and coffee will be served to help cure the hangovers! We will all need to depart by 12pm!
                 </p>
                 <p>&nbsp;</p>
-                <p><img src="/itineraries/exclusive-itinerary-min.jpg" alt="" width="1500" height="2100" /></p>
+                <p><img src="/itineraries/exclusive-itinerary.jpg" alt="" width="1500" height="2100" /></p>
             </div>
         </section>
     </div>

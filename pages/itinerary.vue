@@ -9,7 +9,7 @@
         <section class="content">
             <div class="container">
                 <p>
-                    <img src="/itineraries/itinerary-min.jpg" alt="" width="1500" height="2100" />
+                    <img src="/itineraries/itinerary.jpg" alt="" width="1500" height="2100" />
                 </p>
             </div>
         </section>
